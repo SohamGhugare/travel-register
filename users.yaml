@@ -1,0 +1,12 @@
+Archana:
+  mode: Car
+  route: None
+  stop: None
+Shivaji Ghugare:
+  mode: Bus
+  route: route-1
+  stop: Stop 3
+Soham Ghugare:
+  mode: Bus
+  route: route-2
+  stop: Stop 5

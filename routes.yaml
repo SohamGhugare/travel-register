@@ -1,0 +1,10 @@
+# Routes and other config
+routes:
+  route-1:
+    - Stop 1
+    - Stop 2
+    - Stop 3
+  route-2:
+    - Stop 4
+    - Stop 5
+    
