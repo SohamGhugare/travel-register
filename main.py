@@ -2,7 +2,7 @@ import streamlit as st
 import database as db
 from pandas import DataFrame
 
-st.set_page_config(page_title="Travel Manager", page_icon="🚌", layout="centered")
+st.set_page_config(page_title="Travel Register", page_icon="🚌", layout="centered")
 
 # Hiding menu and footer (Production use only)
 hide_menu_style = """
@@ -11,9 +11,9 @@ hide_menu_style = """
     footer {visibility: hidden; }
     </style>
 """
-st.markdown(hide_menu_style, unsafe_allow_html=True)
+# st.markdown(hide_menu_style, unsafe_allow_html=True)
 
-st.title("🚌 Travel Manager!")
+st.title("🚌 Travel Register!")
 
 form = st.form(key="annotation")
 
