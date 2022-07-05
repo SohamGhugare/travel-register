@@ -4,6 +4,15 @@ from pandas import DataFrame
 
 st.set_page_config(page_title="Travel Manager", page_icon="🚌", layout="centered")
 
+# Hiding menu and footer (Production use only)
+hide_menu_style = """
+    <style>
+    #MainMenu {visibility: hidden; }
+    footer {visibility: hidden; }
+    </style>
+"""
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
 st.title("🚌 Travel Manager!")
 
 form = st.form(key="annotation")
